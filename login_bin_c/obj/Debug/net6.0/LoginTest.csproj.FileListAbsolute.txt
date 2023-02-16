@@ -1,0 +1,15 @@
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\bin\Debug\net6.0\LoginTest.exe
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\bin\Debug\net6.0\LoginTest.deps.json
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\bin\Debug\net6.0\LoginTest.runtimeconfig.json
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\bin\Debug\net6.0\LoginTest.dll
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\bin\Debug\net6.0\LoginTest.pdb
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\LoginTest.csproj.AssemblyReference.cache
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\LoginTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\LoginTest.AssemblyInfoInputs.cache
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\LoginTest.AssemblyInfo.cs
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\LoginTest.csproj.CoreCompileInputs.cache
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\LoginTest.dll
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\refint\LoginTest.dll
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\LoginTest.pdb
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\LoginTest.genruntimeconfig.cache
+C:\Users\carlos.jarquin\Documents\C# Console\LoginTest\LoginTest\obj\Debug\net6.0\ref\LoginTest.dll
