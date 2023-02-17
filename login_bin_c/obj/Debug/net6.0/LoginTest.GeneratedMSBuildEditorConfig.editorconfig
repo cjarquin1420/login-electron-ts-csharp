@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoginTest
-build_property.ProjectDir = c:\Users\carlos.jarquin\Desktop\React\login-test\electron-vite-react\login_bin_c\
+build_property.ProjectDir = c:\Users\carlos.jarquin\Desktop\React\login-test\electron-vite-react\login-electron-ts-csharp\login_bin_c\
