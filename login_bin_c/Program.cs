@@ -7,15 +7,15 @@ var arrUsers = new User[]
     new User("Peter", 4321)
 };
 
-//Start:
-Console.WriteLine("Enter 1 to login");
-var input = Console.ReadLine();
+// //Start:
+// Console.WriteLine("Enter 1 to login");
+// var input = Console.ReadLine();
 
-while (input != "1")
-{
-    Console.WriteLine("Wrong number, input 1 to log in: ");
-    input = Console.ReadLine();
-}
+// while (input != "1")
+// {
+//     Console.WriteLine("Wrong number, input 1 to log in: ");
+//     input = Console.ReadLine();
+// }
 
 bool successful = false;
 while (!successful)
