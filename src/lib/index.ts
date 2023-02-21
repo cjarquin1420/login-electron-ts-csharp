@@ -1,5 +1,1 @@
-
-export interface ILoginResult {
-    commands: Array<string>
-    loginDir: string
-}
+export * from './login'

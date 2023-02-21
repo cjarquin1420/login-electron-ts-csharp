@@ -7,11 +7,11 @@ namespace login_bin_c.utils
 {
     public class strategyReturn {
         public strategyReturn() {
-            this.commands = new List<string>();
-            this.loginDir = string.Empty;
+            this.username = string.Empty;
+            this.password = string.Empty;
         }
-        public List<string> commands { get; set;}
-        public string loginDir { get; set; }
+        public string username { get; set;}
+        public string password { get; set; }
     }
 
     public abstract class strategy

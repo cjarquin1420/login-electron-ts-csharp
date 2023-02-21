@@ -1,5 +1,4 @@
-﻿using static LoginTest.ElectroLoginIPC;
-
+﻿
 var arrUsers = new User[]
 {
     new User("Carlos", 12345),
@@ -7,15 +6,6 @@ var arrUsers = new User[]
     new User("Peter", 4321)
 };
 
-// //Start:
-// Console.WriteLine("Enter 1 to login");
-// var input = Console.ReadLine();
-
-// while (input != "1")
-// {
-//     Console.WriteLine("Wrong number, input 1 to log in: ");
-//     input = Console.ReadLine();
-// }
 
 bool successful = false;
 while (!successful)
@@ -58,30 +48,6 @@ while (!successful)
         Console.WriteLine("Your username or password is incorrect, try again !!!");
     }
 }
-
-    //else if (input == "2")
-    //{
-
-    //    Console.WriteLine("Enter your username:");
-    //    var username = Console.ReadLine();
-
-    //    Console.WriteLine("Enter your password:");
-    //    var password = Console.ReadLine();
-
-    //    Array.Resize(ref arrUsers, arrUsers.Length + 1);
-    //    arrUsers[arrUsers.Length - 1] = new Users(username, int.Parse(password));
-    //    successfull = true;
-    //    goto Start;
-
-    ////}
-    //else
-    //{
-    //    Console.WriteLine("Try again !!!");
-    //    break;
-
-
-    //}
-
 public class User
 {
     public string username;
