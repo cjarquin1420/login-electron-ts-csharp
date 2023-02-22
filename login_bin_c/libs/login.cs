@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -10,8 +11,9 @@ namespace _login_bin_c.utils
 {
     internal abstract class login : login_bin_c.utils.strategy
     {
-        string username = "";
-        string password = "";
+        [Required]
+        [MinLength(length:10)]
+        public string username {get; set;}
+        public string password {get; set;}
     }
-
 }
