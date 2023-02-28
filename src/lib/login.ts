@@ -15,24 +15,23 @@ export const useLogin = () => {
         `${currentPath}\\Login.exe \/Action:LOGINACTION \/username:${params.username} \/password:${params.password}`,
         { encoding: null },
         (err, stdout, stderr) => {
-          console.log(err);
           if (err) {
             reject(err.message);
           } else {
-            const error = Buffer.from(stderr);
-            const result = Buffer.from(stdout);
+            const error = stderr.toString('utf-8');
+            const result = stdout.toString('utf-8');
 
-            if (error.toString('utf-8')) {
-              reject(error.toString('utf-8'));
+            if (error) {
+              reject(error);
             } else {
-              const execResult = result.toString('utf8');
+              const execResult = result.trim();
               resolve(execResult === 'Success');
             }
           }
         }
       );
     });
-    console.log(result);
+
     return result;
   };
 
